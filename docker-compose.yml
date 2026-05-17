@@ -15,12 +15,12 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     container_name: frontend-container
-  backend1:
+  backend-1:
     build:
       context: ./backend
       dockerfile: Dockerfile
     container_name: backend-container-1
-  backend2:
+  backend-2:
     build:
       context: ./backend
       dockerfile: Dockerfile
